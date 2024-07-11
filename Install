@@ -1,1 +1,2 @@
-
+pkg install wget -y
+pkg install android tools -y
