@@ -1,3 +1,4 @@
+clear
 pkg install wget -y
 pkg install android tools -y
 pkg install termux-am -y &>/dev/null
@@ -18,3 +19,10 @@ pkg install xorg-xrandr -y &>/dev/null
 pkg install ncurses-utils -y &>/dev/null
 pkg install hashdeep -y &>/dev/null
 pkg install termux-x11-nightly -y &>/dev/null
+pkg update -y
+termux-change-repo
+pkg upgrade -y
+pkg install wget -y
+pkg install git -y
+pkg install hashdeep -y
+clear
